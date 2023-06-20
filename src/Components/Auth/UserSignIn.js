@@ -54,7 +54,6 @@ function UserSignIn() {
                                 borderRadius: 1,
                                 padding: '2px 6px',
                                 boxShadow: '2px 2px 4px rgba(0, 0, 0, 0.25)',
-                                width: '100%',
                             }}>
                                 <TextField
                                     id="email"
@@ -100,7 +99,7 @@ function UserSignIn() {
                                     </Link>
                                     <br></br>
                                     <Link href="./signup" variant="body2">
-                                        Sign-Up
+                                        Don't have an account? Sign-Up
                                     </Link>
                                 </Grid>
                             </Grid>
